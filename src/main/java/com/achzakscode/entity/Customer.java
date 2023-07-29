@@ -5,7 +5,6 @@ import lombok.NoArgsConstructor;
 import lombok.AllArgsConstructor;
 
 import jakarta.persistence.*;
-import lombok.Setter;
 
 @Entity
 @Data // Lombok annotation to generate getters, setters, equals, hashCode, and toString methods
