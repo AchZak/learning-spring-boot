@@ -49,18 +49,18 @@ This project is a personal learning endeavor, but I welcome contributions and fe
 
 ## :camera_flash: Screenshots
 
-| Screenshot 1 | Screenshot 2 |
+| CustomerController Class - REST API Endpoints | CustomerService Class - Business Logic and Data Manipulation |
 |--------------|--------------|
 | ![Screenshot 1](screenshots/screenshot1.png) | ![Screenshot 2](screenshots/screenshot2.png) |
 
-| Screenshot 3 | Screenshot 4 |
+| PostgreSQL Commands | Maven POM Configuration |
 |--------------|--------------|
 | ![Screenshot 3](screenshots/screenshot3.png) | ![Screenshot 4](screenshots/screenshot4.png) |
 
-| Screenshot 5 | Screenshot 6 |
+| Docker Desktop Running PostgreSQL | Postman API Testing |
 |--------------|--------------|
 | ![Screenshot 5](screenshots/screenshot5.png) | ![Screenshot 6](screenshots/screenshot6.png) |
 
-| Screenshot 7 | Screenshot 8 |
+| IntelliJ Terminal - Code Execution and Application Running | Spring Boot Beginner Certificate - Completed Learning Spring Boot Course |
 |--------------|--------------|
 | ![Screenshot 7](screenshots/screenshot7.png) | ![Screenshot 8](screenshots/screenshot8.png) |
