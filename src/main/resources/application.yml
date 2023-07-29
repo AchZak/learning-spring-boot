@@ -3,15 +3,17 @@ server:
 
 spring:
   datasource:
-    url: jdbc:postgresql://localhost:5332/customer
+    url: jdbc:postgresql://localhost:5332/customer  # Replace 'customer' with your actual database name
     username: achzakscode
     password: password
   jpa:
     hibernate:
-      ddl-auto: update
+      ddl-auto: update  # Set to 'update' for development, 'none' for production
     properties:
       hibernate:
-        dialect: org.hibernate.dialect.PostgreSQLDialect
-        format_sql: true
-  main:
-    web-application-type: servlet
+        dialect: org.hibernate.dialect.PostgreSQLDialect  # Use the correct PostgreSQL dialect
+        format_sql: true  # Enable pretty-printing of SQL statements for debugging
+
+# Optional: If you are using Servlet-based web application, you don't need this property
+#main:
+#  web-application-type: servlet

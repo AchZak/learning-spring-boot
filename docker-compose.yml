@@ -1,3 +1,5 @@
+version: '3.8'  # Specify the version of the Docker Compose file format
+
 services:
   db:
     container_name: postgres
@@ -5,18 +7,18 @@ services:
     environment:
       POSTGRES_USER: achzakscode
       POSTGRES_PASSWORD: password
-      PGDATA: /data/postgres
+      PGDATA: /data/postgres  # Specify the location for PostgreSQL data storage
     volumes:
-      - db:/data/postgres
+      - db:/data/postgres  # Mount a volume to persist PostgreSQL data
     ports:
-      - "5332:5432"
+      - "5332:5432"  # Map host port 5332 to container port 5432
     networks:
       - db
-    restart: unless-stopped
+    #restart: unless-stopped  # Optional: Automatically restart the container unless explicitly stopped
 
 networks:
   db:
     driver: bridge
 
 volumes:
-  db:
+  db:  # Define a volume named 'db' for PostgreSQL data storage
