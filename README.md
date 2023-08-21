@@ -1,3 +1,4 @@
+![Spring Boot](screenshots/screenshot0.png)
 # Learning Spring Boot :books:
 
 ![Java Version](https://img.shields.io/badge/Java%20SE-17-blue)
@@ -48,19 +49,74 @@ To run this application locally, make sure you have the following software insta
 This project is a personal learning endeavor, but I welcome contributions and feedback. Feel free to open issues for bug reports or suggestions for improvements. :raised_hands:
 
 ## :camera_flash: Screenshots
+<table align="center">
+  <tr>
+    <td align="center">CustomerController Class - REST API Endpoints</td>
+  </tr>
+  <tr>
+    <td align="center"><img src="screenshots/screenshot1.png" alt="CustomerController Class"></td>
+  </tr>
+</table>
 
-| CustomerController Class - REST API Endpoints | CustomerService Class - Business Logic and Data Manipulation |
-|--------------|--------------|
-| ![Screenshot 1](screenshots/screenshot1.png) | ![Screenshot 2](screenshots/screenshot2.png) |
+<table align="center">
+  <tr>
+    <td align="center">CustomerService Class - Business Logic and Data Manipulation</td>
+  </tr>
+  <tr>
+    <td align="center"><img src="screenshots/screenshot2.png" alt="CustomerService Class"></td>
+  </tr>
+</table>
 
-| PostgreSQL Commands | Maven POM Configuration |
-|--------------|--------------|
-| ![Screenshot 3](screenshots/screenshot3.png) | ![Screenshot 4](screenshots/screenshot4.png) |
+<table align="center">
+  <tr>
+    <td align="center">PostgreSQL Commands</td>
+  </tr>
+  <tr>
+    <td align="center"><img src="screenshots/screenshot3.png" alt="PostgreSQL Commands"></td>
+  </tr>
+</table>
 
-| Docker Desktop Running PostgreSQL | Postman API Testing |
-|--------------|--------------|
-| ![Screenshot 5](screenshots/screenshot5.png) | ![Screenshot 6](screenshots/screenshot6.png) |
+<table align="center">
+  <tr>
+    <td align="center">Maven POM Configuration</td>
+  </tr>
+  <tr>
+    <td align="center"><img src="screenshots/screenshot4.png" alt="Maven POM Configuration"></td>
+  </tr>
+</table>
 
-| IntelliJ Terminal - Code Execution and Application Running | Spring Boot Beginner Certificate - Completed Learning Spring Boot Course |
-|--------------|--------------|
-| ![Screenshot 7](screenshots/screenshot7.png) | ![Screenshot 8](screenshots/screenshot8.png) |
+<table align="center">
+  <tr>
+    <td align="center">Docker Desktop Running PostgreSQL</td>
+  </tr>
+  <tr>
+    <td align="center"><img src="screenshots/screenshot5.png" alt="Docker Desktop Running PostgreSQL"></td>
+  </tr>
+</table>
+
+<table align="center">
+  <tr>
+    <td align="center">Postman API Testing</td>
+  </tr>
+  <tr>
+    <td align="center"><img src="screenshots/screenshot6.png" alt="Postman API Testing"></td>
+  </tr>
+</table>
+
+<table align="center">
+  <tr>
+    <td align="center">IntelliJ Terminal - Code Execution and Application Running</td>
+  </tr>
+  <tr>
+    <td align="center"><img src="screenshots/screenshot7.png" alt="IntelliJ Terminal - Code Execution and Application Running"></td>
+  </tr>
+</table>
+
+<table align="center">
+  <tr>
+    <td align="center">Spring Boot Beginner Certificate - Completed Learning Spring Boot Course</td>
+  </tr>
+  <tr>
+    <td align="center"><img src="screenshots/screenshot8.png" alt="Spring Boot Beginner Certificate - Completed Learning Spring Boot Course"></td>
+  </tr>
+</table>
